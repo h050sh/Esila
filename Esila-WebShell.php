@@ -247,7 +247,7 @@ function formatPath(p) {
 function getPrompt() {
     return `\r\n\x1b[1;32m${username}\x1b[0m@\x1b[1;32m${hostname}\x1b[0m:\x1b[1;34m${formatPath(cwd)}\x1b[0m# `;
 }
-term.writeln('\x1b[1;35m== WebReaper Web Terminal ==\x1b[0m');
+term.writeln('\x1b[1;35m== Esila Web Terminal ==\x1b[0m');
 term.write(getPrompt());
 
 let currentLine = '';
